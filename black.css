@@ -1,0 +1,110 @@
+body {
+  background: black;
+  color: green;
+}
+
+img {
+  border: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  /*opacity: 0.05;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+.headertext {
+    background-color: #AAAAAA;
+    color: #404040;
+    width: 550px;
+}
+
+.dirup {
+    background-color: #DEDEDE;
+    width: 550px;
+    text-align: left;
+}
+
+.dirup a {
+    text-decoration: none;
+    color: #104E8B;
+}
+
+.content {
+    background-color: #E8E8E8;
+    width: 550px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.content:nth-child(2n) {
+    background-color: #DEDEDE;
+}
+
+.content:nth-child(2n) a {
+  text-decoration: none;
+  color: #404040;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  background-color: #AAAAAA;
+  color: #404040;
+  width: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: green;
+}
+
+b {
+    color: #F0F0F0;
+}
+
+p {
+    font-size: small;
+    text-align: center;
+    color: #E8E8E8;
+}
+
+h1.error {
+  background-color: #DEDEDE;
+  margin: 0;
+  display: inline-block;
+  width: 550px;
+  padding: 50px 0;
+  overflow: auto;
+}
+
+.readme {
+    background-color: #AAAAAA;
+    color: #404040;
+    width: 550px;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
